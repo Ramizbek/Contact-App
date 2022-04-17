@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#00E5FF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="Name:Unknown"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/edt_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number:+9981234567"
+        android:background="@color/white"
+        android:inputType="phone"
+        android:layout_margin="10dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_margin="10dp"
+        android:textSize="15sp" />
+</LinearLayout>
